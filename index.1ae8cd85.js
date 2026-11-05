@@ -1,0 +1,2 @@
+var t=document.querySelector("#largeImg");document.querySelector("#thumbs").addEventListener("click",function(e){e.preventDefault();var a=window.location.origin;if(e.target.classList.contains("list-item__link")&&(t.src=a+e.target.pathname),e.target.classList.contains("gallery__img")){var i=e.target.src.split("/landscape")[1].split("-thumb")[0];t.src=a+"/images/landscape"+i+".png"}});
+//# sourceMappingURL=index.1ae8cd85.js.map
